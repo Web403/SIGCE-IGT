@@ -1,0 +1,26 @@
+.container{
+    margin: auto;
+    margin-top: 10vh;
+    width: 50%;
+    height: 30vh;
+    background-color: aqua;
+}
+.img-profile{
+    border-radius: 50%;
+    width: 18vw;
+    height: 33vh;
+    background-color: blue;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+.flex{
+    display: flex;
+    overflow-x: hidden;
+}
+.box{
+    width: 35vw;
+    height: 18vh;
+    background-color: brown;
+    margin: auto;
+    margin-left: 20px;
+}
