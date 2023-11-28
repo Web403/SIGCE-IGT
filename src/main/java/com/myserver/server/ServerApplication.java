@@ -39,26 +39,12 @@ class HomeController {
         return login;
     }
 
-    @GetMapping("/sum")
-    Integer sum() {
-        return 10 + 20;
-    }
-
-    @GetMapping("/sum1")
-    Integer sum1(@RequestParam int a, @RequestParam int b) {
-        return a + b;
-    }
 
     @GetMapping("/info")
     ModelAndView info() {
         ModelAndView info = new ModelAndView();
         info.setViewName("info.html");
         return info;
-    }
-
-    @GetMapping("/add/{a}/{b}")
-    Integer add(@PathVariable int a, @PathVariable int b) {
-        return a + b;
     }
 
     @GetMapping("/email")
